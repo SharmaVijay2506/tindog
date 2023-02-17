@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Ubuntu&display=swap');
+/* body,html{
+    min-width: 100vw;
+} */
+#title{
+    background-color: #ff4c68;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.title{
+    padding: 1.5rem 10rem 6rem 10rem;
+}
+.col-lg-6 h1{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: white;
+}
+.navbar-brand{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.container-fluid .row{
+    margin-top: 3rem;
+}
+.navbar-nav{
+    column-gap: 2rem;
+    font-size: 16px;
+}
+.dog-picture{
+    transform: rotate(25deg);
+    width: 22%;
+    position: absolute;
+    right: 20%;
+}
+.col-lg-6 button{
+    margin: 5% 3% 5% 0;
+}
+.middle-bar{
+    text-align: center;
+}
+.middle-bar h3{
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+.middle-bar p{
+    font-weight: 400;
+    opacity: 0.7;
+    font-size: 1.1rem;
+}
+
+.middle-bar i{
+   font-size: 3.5rem;
+   color: #ef8172;
+   line-height: 1.8;
+}
+.middle-bar i:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+#features{
+    background-color: white;
+    position: relative;
+    padding-bottom: 4rem;
+    z-index: 1;
+    padding: 4rem 8rem;
+}
+#testimonials h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+#testimonials img{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.carousel-item{
+    padding: 8rem 10rem;
+}
+#press{
+    
+    background-color: #ef8172;
+    padding-bottom: 4rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    text-align: center;
+}
+.logo{
+    width: 15%;
+    margin: 1rem 2rem;
+}
+#pricing{
+    padding: 8rem 4rem;
+    text-align: center;
+}
+#pricing h2{
+    font-weight: 900;
+}
+#pricing p{
+    color: rgb(109, 107, 107);
+}
+#pricing h3{
+    font-weight: 700;
+}
+.pricing-column{
+    padding: 2rem 1.5rem;
+}
+#cta{
+    background-color: #ff4c68;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    text-align: center;
+}
+#cta h3{
+    margin-bottom: 3rem;
+    font-weight: 900;
+    color: white;
+    font-size: 3rem;
+}
+#cta button{
+    margin: 0.8rem;
+}
+#footer{
+    text-align: center;
+    padding: 5rem;
+}
+
+#footer i{
+    margin: 0.6rem;
+    margin-bottom: 1.2rem;
+}
+@media (max-width:991px){
+    .dog-picture{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+    #title{
+        text-align: center;
+    }
+    .title{
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .logo{
+        width: 50%;
+    }
+    #testimonials img{
+        width: 30%;
+    }
+}
